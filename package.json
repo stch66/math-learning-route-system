@@ -1,0 +1,10 @@
+{
+  "name": "math-learning-route-system",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check math_multiuser_server.mjs && node --check server/appState.mjs && node --check server/assignments.mjs && node --check server/assignmentsView.mjs && node --check server/auth.mjs && node --check server/db.mjs && node --check server/learningPages.mjs && node --check server/loginLogs.mjs && node --check server/mistakes.mjs && node --check server/middleRouteLoader.mjs && node --check server/offlineSync.mjs && node --check server/primaryRouteLoader.mjs && node --check server/progress.mjs && node --check server/questionBank.mjs && node --check server/questionReview.mjs && node --check server/questionValidation.mjs && node --check server/questions.mjs && node --check server/reports.mjs && node --check server/routeDataLoader.mjs && node --check server/routes.mjs && node --check server/staticAssets.mjs && node --check server/studentProfiles.mjs && node --check server/students.mjs && node --check server/uiPage.mjs && node --check public/app.js && node --check public/shared.js && node --check public/admin.js && node --check public/student.js && node --check public/pwa.js && node --check scripts/generate_weekly_diagnostics.mjs && node --check scripts/generate_daily_diagnostics.mjs && node --check scripts/validate_assigned_homework_nodes.mjs && node --check scripts/smoke_math_system.mjs && node --check scripts/extract_app_assets.mjs && bash -n scripts/deploy_math_system.sh",
+    "smoke": "node scripts/smoke_math_system.mjs",
+    "deploy": "bash scripts/deploy_math_system.sh"
+  }
+}

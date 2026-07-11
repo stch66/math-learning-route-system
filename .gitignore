@@ -1,0 +1,41 @@
+.DS_Store
+Thumbs.db
+
+# Local secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+deploy/nginx-*.conf
+!deploy/nginx-math-system.example.conf
+
+# Runtime data with student records, password hashes, login logs, and progress
+data/
+studentspic/
+sites/
+_local_archive/
+
+# Dependencies
+node_modules/
+desktop/node_modules/
+sites/*/node_modules/
+
+# Build artifacts and local tool caches
+dist/
+desktop/dist/
+sites/*/dist/
+sites/*/.next/
+sites/*/.wrangler/
+sites/*/.open-next/
+coverage/
+
+# Local editor state
+.nested-git-backups/
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

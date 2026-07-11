@@ -1,0 +1,10 @@
+[Unit]
+Description=Run math student diagnostics every week
+
+[Timer]
+OnCalendar=Mon *-*-* 06:10:00
+Persistent=true
+Unit=math-weekly-diagnostics.service
+
+[Install]
+WantedBy=timers.target

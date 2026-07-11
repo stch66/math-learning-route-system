@@ -1,0 +1,8 @@
+[Unit]
+Description=Math system weekly student diagnostics
+After=math-system.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/math-system
+ExecStart=/usr/local/bin/node20 /opt/math-system/scripts/generate_weekly_diagnostics.mjs

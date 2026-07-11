@@ -1,0 +1,28 @@
+{
+  "name": "数学学习路线",
+  "short_name": "数学路线",
+  "description": "学生数学学习路线、作业、检测和进度系统。",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff8df",
+  "theme_color": "#2f7df6",
+  "categories": ["education", "kids"],
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/public/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/public/app-icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

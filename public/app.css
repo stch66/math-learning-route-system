@@ -1,0 +1,2 @@
+/* Compatibility shim. The maintained stylesheet lives in /public/style.css. */
+@import url("/public/style.css");
